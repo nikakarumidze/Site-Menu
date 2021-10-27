@@ -1,4 +1,23 @@
-* {
-    margin: 0;
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
 }
 
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#logo-img {
+    width: 150px;
+    height: 150px;
+    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture30/after/images/restaurant-logo_large.png);
+    margin: 10px 15px 10px 0;
+}
