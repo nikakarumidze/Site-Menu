@@ -75,14 +75,14 @@ body {
 }
 @media screen and (max-width: 573px) {
     #restaurant-name {
-        font-size: 17px;
+        font-size: 16px;
     }
     .restaurant-certified {
         font-size: 14px;
     }
     .phone-number {
         font-size: 24px !important;
-        
+
     }
 }
 
