@@ -5,7 +5,22 @@ body {
 }
 #header-nav {
     background-color: #f6b319;
-}   
+}
+
+.upper-header {
+    margin: 0;
+    padding: 0;
+}
+.upper-header div ul {
+    margin: 0;
+}
+.upper-header div ul li a {
+    padding: 0 7px 0 0;
+}
+
+.container {
+    padding: 0;
+}
 .brand-name {
     margin-left: 30px;
 }
@@ -13,7 +28,7 @@ body {
 #restaurant-name {
   font-family: 'Lora', serif;
   color: #557c3e;
-  font-size: 1.5em;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -22,67 +37,64 @@ body {
   line-height: .75;
 }
 
+.nav-item {
+    padding: 0 5px 0 5px;
+}
+
 .nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header-buttons a{
+.header-buttons a {
     color: #61122f !important;
 }
 
 .bi {
-    font-size: 20px;
-}
-
-.div-number{
-    width: 100%;
+    font-size: 25px;
 }
 
 .phone-number {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 26px;
+    font-size: 30px;
 }
 .phone-number span {
-    font-size:14px;
+    font-size: 16px;
     align-items: flex-end;
     justify-content: flex-end;
     color: #61122f;
 }
-
-@media screen and (min-width:676px) and (max-width: 1199px) {
+@media screen and (min-width:576px) and (max-width:767px) {
     #restaurant-name {
-        font-size: 1.2em;
-    }
-    .phone-number {
-        font-size: 16px;
-    }
-    .phone-number span {
         font-size: 24px;
     }
-}
-
-@media screen and (max-width: 991px){
-    .phone-number {
-        font-size: 40px;
-    }
-    .bi {
-        font-size: 30px;
-    }
-}
-@media screen and (max-width: 573px) {
-    #restaurant-name {
+    .restaurant-certified {
         font-size: 16px;
     }
+    .phone-number {
+        font-size: 24px;
+    }
+    .brand-name {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:410px) and (max-width: 575px) {
+    #restaurant-name {
+        font-size: 23px;
+    }
     .restaurant-certified {
-        font-size: 14px;
+        font-size: 15px;
     }
     .phone-number {
         font-size: 24px !important;
 
+    }
+    .media-content-contain {
+        justify-content: space-evenly !important;
     }
 }
 
