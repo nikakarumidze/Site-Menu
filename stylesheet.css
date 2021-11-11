@@ -18,7 +18,7 @@ body {
     padding: 0 7px 0 0;
 }
 
-.container {
+.container, .jumbotron {
     padding: 0;
 }
 .brand-name {
@@ -59,6 +59,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: unset;
     font-size: 30px;
 }
 .phone-number span {
@@ -67,59 +68,50 @@ body {
     justify-content: flex-end;
     color: #61122f;
 }
+
+.jumbotron {
+    margin-top: 20px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width:576px) and (max-width:767px) {
     #restaurant-name {
-        font-size: 24px;
+        font-size: 26px;
     }
     .restaurant-certified {
-        font-size: 16px;
+        font-size: 22px;
     }
     .phone-number {
-        font-size: 24px;
+        font-size: 26px;
     }
     .brand-name {
         margin: 0;
     }
 }
 
-@media screen and (min-width:410px) and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     #restaurant-name {
-        font-size: 23px;
+        font-size: 4.5vw;
     }
     .restaurant-certified {
-        font-size: 15px;
+        font-size: 3.6vw;
     }
     .phone-number {
-        font-size: 24px !important;
+        font-size: 4.5vw !important;
+    }
+    .phone-number span {
+        font-size: 3.4vw;
     }
     .media-content-contain {
         justify-content: space-evenly !important;
     }
-}
-
-@media screen and (max-width: 409px) {
-    #restaurant-name {
-        font-size: 18px;
-    }
-    .restaurant-certified {
-        font-size: 12px;
-    }
-    .brand-name {
-        margin: 0 !important;
-    }
-    .media-content-contain {
-        justify-content: space-evenly !important;
-    }
-    .phone-number {
-        font-size: 23px !important;
-    }
-}
-
-@media screen and (max-width:315px) {
-    #restaurant-name {
-        font-size: 16px;
-    }
-    .phone-number {
-        font-size: 20px !important;
+    .jumbotron {
+        margin: 0;
     }
 }
