@@ -15,7 +15,10 @@ body {
     margin: 0;
 }
 .upper-header div ul li a {
-    padding: 0 7px 0 0;
+    padding: 0 7px 0 7px;
+}
+.phone-icon {
+    color: #61122f ;
 }
 
 .container, .jumbotron {
@@ -113,5 +116,8 @@ body {
     }
     .jumbotron {
         margin: 0;
+    }
+    .phone-icon {
+        font-size: 4vw;
     }
 }
