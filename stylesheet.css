@@ -54,6 +54,10 @@ body {
     color: #61122f !important;
 }
 
+.menu-button {
+    font-weight: 520;
+    color: black;
+}
 .bi {
     font-size: 25px;
 }
@@ -72,13 +76,18 @@ body {
     color: #61122f;
 }
 
+.navbar-toggler {
+    border: 1px solid;
+    border-color: black !important;
+}
+
 .jumbotron {
     margin-top: 20px;
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
 }
 
-.responsive {
+.responsive, .box-photo {
     width: 100%;
     height: auto;
 }
