@@ -92,6 +92,29 @@ body {
     height: auto;
 }
 
+.card {
+    border: 0;
+    border-radius: 5%;
+    overflow: hidden;
+    border: 1px solid #3F0C1F;
+    background: transparent;
+}
+
+.card:hover {
+    box-shadow: 0 1px 3px 1px #cccccc;
+}
+
+.subtitle a h3 {
+    color: white;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
 @media screen and (min-width:576px) and (max-width:767px) {
     #restaurant-name {
         font-size: 26px;
