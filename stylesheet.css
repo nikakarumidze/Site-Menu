@@ -58,8 +58,12 @@ body {
     font-weight: 520;
     color: black;
 }
+
+.navbar-toggler {
+    padding: 0 9px 4px 9px;
+}
 .bi {
-    font-size: 25px;
+    font-size: xx-large;
 }
 
 .phone-number {
@@ -87,7 +91,7 @@ body {
     border: 2px solid #3F0C1F;
 }
 
-.responsive, .box-photo {
+.responsive {
     width: 100%;
     height: auto;
 }
@@ -98,6 +102,12 @@ body {
     overflow: hidden;
     border: 1px solid #3F0C1F;
     background: transparent;
+    max-height: 315px;
+}
+
+.box-photo, #map {
+    height: 250px;
+    width: 100%;
 }
 
 .card:hover {
@@ -106,12 +116,6 @@ body {
 
 .subtitle a h3 {
     color: white;
-}
-
-#map {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
 }
 
 
@@ -132,24 +136,39 @@ body {
 
 @media screen and (max-width: 575px) {
     #restaurant-name {
-        font-size: 4.5vw;
+        font-size: 4.8vw;
     }
     .restaurant-certified {
         font-size: 3.6vw;
     }
     .phone-number {
-        font-size: 4.5vw !important;
+        font-size: 4.8vw !important;
     }
     .phone-number span {
         font-size: 3.4vw;
+    }
+    .navbar-toggler {
+        padding: 0px 6px 4px 6px;
+    }
+    .bi {
+        font-size: 6vw;
     }
     .media-content-contain {
         justify-content: space-evenly !important;
     }
     .jumbotron {
         margin: 0;
+        border-right: 0;
+        border-left: 0;
     }
     .phone-icon {
         font-size: 4vw;
+    }
+    .boxes div {
+        padding: 0;
+    }
+    .boxes {
+        max-width: 575px;
+        margin: 0;
     }
 }
