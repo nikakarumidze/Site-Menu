@@ -141,8 +141,16 @@ footer p {
 .delivery-text:hover {
     opacity: .7;
 }
-.testimonials p {
+.reviews p {
     font-style: italic;
+}
+
+hr {
+    height: 2px;
+    border: solid;
+}
+.margin-class {
+    margin-right: 50px;
 }
 
 
@@ -168,6 +176,23 @@ footer p {
     .card {
         margin: auto;
     }
+    footer div {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .footer-small {
+        flex-direction: row !important;
+        justify-content: space-around;
+    }
+    .reviews {
+        justify-content: center;
+        text-align: center;
+    }
+    .margin-class {
+        margin-right: 0;
+    }
+
+    
 }
 
 @media screen and (max-width: 575px) {
@@ -212,9 +237,20 @@ footer p {
     .card {
         margin: auto;
     }
-    footer .div {
+    footer div {
         display: flex;
-        flex-direction: row;
+        flex-direction: column !important;
+    }
+    .footer-small {
+        flex-direction: row !important;
+        justify-content: space-around;
+    }
+    .reviews {
+        justify-content: center;
+        text-align: center;
+    }
+    .margin-class {
+        margin-right: 0;
     }
     
 }
