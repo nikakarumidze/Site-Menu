@@ -8,33 +8,36 @@
       -ms-flex-align: center;
           align-items: center;
   grid-gap: 40px;
-  -ms-grid-columns: (206px)[4];
-      grid-template-columns: repeat(4, 206px);
+  -ms-grid-columns: (200px)[4];
+      grid-template-columns: repeat(4, 200px);
 }
 
 @media (max-width: 992px) {
   .content {
-    -ms-grid-columns: (206px)[3];
-        grid-template-columns: repeat(3, 206px);
+    -ms-grid-columns: (200px)[3];
+        grid-template-columns: repeat(3, 200px);
   }
 }
 
 @media (max-width: 767px) {
   .content {
-    -ms-grid-columns: (206px)[2];
-        grid-template-columns: repeat(2, 206px);
+    -ms-grid-columns: (200px)[2];
+        grid-template-columns: repeat(2, 200px);
   }
 }
 
 @media (max-width: 575px) {
   .content {
-    -ms-grid-columns: (206px)[1];
-        grid-template-columns: repeat(1, 206px);
+    -ms-grid-columns: (200px)[1];
+        grid-template-columns: repeat(1, 200px);
   }
 }
 
+.content .card {
+  height: 200px;
+}
+
 .content div {
-  border: 3px solid black;
   padding: 0;
 }
 
