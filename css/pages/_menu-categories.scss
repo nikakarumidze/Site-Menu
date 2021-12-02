@@ -12,13 +12,10 @@
             grid-template-columns: repeat(2, 200px);
         }
         @include mobile {
-            grid-template-columns: repeat(1, 200px);
+            grid-template-columns: repeat(1, 200 px);
         }
     .card {
         height: 200px;
-    }
-
-    div {
         padding: 0;
         
         img {
@@ -27,4 +24,3 @@
         }
     }
 }
-

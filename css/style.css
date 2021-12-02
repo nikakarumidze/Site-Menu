@@ -28,20 +28,17 @@
 
 @media (max-width: 575px) {
   .content {
-    -ms-grid-columns: (200px)[1];
-        grid-template-columns: repeat(1, 200px);
+    -ms-grid-columns: (200 px)[1];
+        grid-template-columns: repeat(1, 200 px);
   }
 }
 
 .content .card {
   height: 200px;
-}
-
-.content div {
   padding: 0;
 }
 
-.content div img {
+.content .card img {
   width: 200px;
   height: 200px;
 }
