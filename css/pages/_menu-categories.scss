@@ -1,21 +1,28 @@
 .content {
-    margin:0 15px 0 15px;
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(5, 1fr);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 40px;
+        grid-template-columns: repeat(4, 206px); 
 
-    @include tablet {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    @include mobile {
-        grid-template-columns: repeat(2, 1fr);
-    }
+        @include tablet {
+            grid-template-columns: repeat(3, 206px);
+        }
+        @include after-mobile {
+            grid-template-columns: repeat(2, 206px);
+        }
+        @include mobile {
+            grid-template-columns: repeat(1, 206px);
+        }
 
     div {
         border: 3px solid black;
-        grid-column: span 200px;
-        grid-row: span 200px;
+        padding: 0;
+        
+        img {
+            width: 200px;
+            height: 200px;
+        }
     }
 }
 
