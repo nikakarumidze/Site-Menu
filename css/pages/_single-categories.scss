@@ -1,0 +1,15 @@
+.meal-list {
+    p, h3 {
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-card {
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
