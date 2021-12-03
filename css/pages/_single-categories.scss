@@ -10,6 +10,13 @@
         grid-gap: 25px;
         justify-content: center;
         align-items: center;
+
+        @include mobile {
+            padding-right: 0;
+        }
+    }
+    @include mobile {
+        margin: 0;
     }
     
 }
