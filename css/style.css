@@ -94,7 +94,7 @@
 
 @media (max-width: 575px) {
   .meal-list .content-card {
-    padding-right: 0;
+    padding: auto;
     grid-auto-flow: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
